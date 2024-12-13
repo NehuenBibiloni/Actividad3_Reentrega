@@ -1,13 +1,13 @@
-$color_fondo: linear-gradient(to right, #6bbfd1, #55c9d1, #45d2ca, #48dabb, #5ee1a7, #4de1ac, #35e1b2, #00e1b8, #00d8da, );
+$color_fondo: linear-gradient(to right, #48dabb, #5ee1a7, #4de1ac, #35e1b2, #00e1b8, #00d8da, );
 $color_letras: white;
 
 footer {
-    background-image: $color_fondo
+    background-image: $color_fondo;
 }
 
-p {
+footer p {
     color: $color_letras;
     text-align: end;
     padding: 1%;
-    
+
 }

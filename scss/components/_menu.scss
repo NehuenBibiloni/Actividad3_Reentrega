@@ -1,49 +1,53 @@
-$color_fondo: linear-gradient(to right,  #48dabb, #5ee1a7, #4de1ac, #35e1b2, #00e1b8, #00d8da, );
+$color_fondo: linear-gradient(to right, #48dabb, #5ee1a7, #4de1ac, #35e1b2, #00e1b8, #00d8da, );
+
 .menu {
   display: flex;
   flex: 1;
   text-align: center;
   padding: 10px;
-  background-image:$color_fondo;
+  background-image: $color_fondo;
   color: white;
   border: none;
   border-radius: 6px;
   cursor: pointer;
   text-decoration: aliceblue;
   margin: 10px;
-  p {
 
+
+}
+
+.nav_index {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.menu a {
+  color: whitesmoke;
+  text-decoration: none;
+  align-items: center;
+}
+
+.menu:hover {
+  animation: Boton_inicio 1s ease 0s 1 normal forwards;
+
+  @keyframes Boton_inicio {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.1);
+    }
+
+    100% {
+      transform: scale(1);
+    }
   }
 }
-.nav_index {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-  }
-  .menu a {
-    color: whitesmoke;
-    text-decoration: none;
-    align-items: center;
-  }
-  
-  .menu:hover {
-    animation: Boton_inicio 1s ease 0s 1 normal forwards;
-    @keyframes Boton_inicio {
-        0% {
-          transform: scale(1);
-        }
-      
-        50% {
-          transform: scale(1.1);
-        }
-      
-        100% {
-          transform: scale(1);
-        }
-  }
-};
-  
-  .menu:active {
-    background-color: #3e8e41;
-  }
-  
+
+;
+
+.menu:active {
+  background-color: #3e8e41;
+}
