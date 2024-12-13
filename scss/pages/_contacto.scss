@@ -1,0 +1,59 @@
+form div .formulario-contacto {
+    display: grid;
+    width: 100%;
+    margin: 0;
+    gap: 1%;
+    padding: 3%;
+    ;
+    justify-content: stretch;
+    text-align: center;
+    
+  }
+  
+  div .datos {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: rgb(222, 249, 240);
+    color: seagreen;
+    margin: 6px;
+    border: 1px solid rgb(251, 254, 253);
+    border-radius: 15px;
+    text-align: center;
+    padding: 3px;
+  }
+  
+  
+  
+  .texto-consulta {
+    grid-column: 2/4;
+    grid-row: 1/2;
+  }
+  
+  textarea {
+    width: 500px;
+    height: 150px;
+  }
+  
+  h5 {
+    color: seagreen;
+    margin: 6px;
+  }
+  
+  .boton_chico a {
+    color: whitesmoke;
+  }
+  
+  .boton_chico {
+    list-style-type: none;
+  
+  
+  }
+  
+  .boton_chico:hover {
+    background-color: rgb(101, 233, 189);
+  }
+  
+  p {
+    padding: 15px;
+    text-align: justify;
+  }
