@@ -51,6 +51,7 @@ footer p {
   cursor: pointer;
   text-decoration: aliceblue;
   margin: 10px;
+  justify-content: space-between;
 }
 
 .nav_index {
@@ -84,6 +85,12 @@ footer p {
   background-color: #3e8e41;
 }
 
+@media (max-width: 768px) {
+  .menu {
+    flex-basis: 40%;
+    text-align: center;
+  }
+}
 .formulario-contacto {
   display: grid;
   grid-template-columns: 1fr 2fr;

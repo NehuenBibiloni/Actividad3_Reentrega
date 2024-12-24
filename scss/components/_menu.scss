@@ -12,7 +12,7 @@ $color_fondo: linear-gradient(to right, #48dabb, #5ee1a7, #4de1ac, #35e1b2, #00e
   cursor: pointer;
   text-decoration: aliceblue;
   margin: 10px;
-
+  justify-content: space-between;
 
 }
 
@@ -46,8 +46,15 @@ $color_fondo: linear-gradient(to right, #48dabb, #5ee1a7, #4de1ac, #35e1b2, #00e
   }
 }
 
-;
+
 
 .menu:active {
   background-color: #3e8e41;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    flex-basis: 40%;
+    text-align: center;
+}
 }
