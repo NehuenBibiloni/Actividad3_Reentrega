@@ -21,7 +21,7 @@ a {
 .texto_inicio {
   width: 100%;
   height: 350px;
-  background: #8ce8b4 url(/PRG/DESARROLLADOR_WEB/ACT3/img/jardin_prueba.jpg) center center/cover no-repeat;
+  background: #8ce8b4 url(../img/jardin_prueba.jpg) center center/cover no-repeat;
 }
 
 p {
