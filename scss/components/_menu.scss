@@ -1,6 +1,6 @@
 $color_fondo: linear-gradient(to right, #48dabb, #5ee1a7, #4de1ac, #35e1b2, #00e1b8, #00d8da, );
 
-.menu {
+nav .menu {
   display: flex;
   flex: 1;
   text-align: center;
@@ -12,20 +12,27 @@ $color_fondo: linear-gradient(to right, #48dabb, #5ee1a7, #4de1ac, #35e1b2, #00e
   cursor: pointer;
   text-decoration: aliceblue;
   margin: 10px;
-  justify-content: space-between;
+  justify-content: space-around;
+  width: 100%;
+  
 
 }
 
+
 .nav_index {
   display: flex;
-  justify-content: space-between;
+  flex: 1;
+  justify-content:space-around;
   text-align: center;
+  width: 100%;
+  
 }
 
 .menu a {
   color: whitesmoke;
   text-decoration: none;
   align-items: center;
+  width: 100%;
 }
 
 .menu:hover {
