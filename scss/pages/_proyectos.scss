@@ -16,10 +16,11 @@
   padding: 5px;
   margin: 5px;
   padding-right: 20px;
-  justify-content:center;
+  justify-content: center;
   text-align: center;
   grid-auto-flow: row;
 }
+
 .formulario-proyectos {
   display: flex;
   justify-content: center;
@@ -36,16 +37,18 @@
   height: 100%;
   width: 100%;
 }
+
 .liform {
   display: flex;
   justify-content: center;
   padding-top: 10px;
   margin: 5px;
 }
+
 li .boton_chico {
   max-width: 100%;
   margin: 0;
-  
+
 }
 
 .carousel {
@@ -65,30 +68,32 @@ li .boton_chico {
   padding-top: 0%;
   height: 100%;
   width: 100%;
-  
- .boton_chico  {
+
+  .boton_chico {
     max-width: 80%;
     padding: 10px;
     margin: 5px;
   }
-    
+
   img {
     margin: 2px;
     max-width: 95%;
     max-height: 250px;
   }
+
   p {
-color: seagreen;
-    margin:0;
+    color: seagreen;
+    margin: 0;
     padding-bottom: 0;
   }
 }
+
 @media (max-width: 768px) {
 
   .contenedor-proyectos {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  
-  
+
+
 }
